@@ -94,3 +94,35 @@ input, select, button {
     display: table;
     clear: both;
 }
+
+.normalRem {
+    background: #000;
+    color: #fff;
+    margin: 0;
+    padding: 10px;
+    width: 30px;
+}
+
+.normalRes {
+    width: 100px;
+    background: #eee;
+    padding: 10px;
+    margin: 0;
+}
+
+.normal {
+    text-align: center;
+}
+
+.num {
+    background: #9E9E9E;
+    padding: 10px;
+    color: #fff;
+    margin: 0;
+    width: 30px;
+}
+
+.display-area h1 {
+    margin-bottom: 50px;
+    text-align: center;
+}
