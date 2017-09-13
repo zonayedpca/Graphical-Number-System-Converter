@@ -16,6 +16,10 @@ body {
 .intro-area {
     height: 330px;
     background: #263238;
+    background-image: url(cover.png);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
     line-height: 320px;
     color: #fff;
     text-align: center;
@@ -125,4 +129,25 @@ input, select, button {
 .display-area h1 {
     margin-bottom: 50px;
     text-align: center;
+}
+
+.stndrd-result {
+    display: inline-flex;
+    flex-direction: row-reverse;
+    margin-top: 20px;
+}
+
+.stdresult {
+    background: #000;
+    color: #fff;
+    padding: 0 5px;
+    margin: 1px;
+}
+
+.inNum {
+    font-weight: bold;
+}
+
+.dummy {
+	color: #777;
 }

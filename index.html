@@ -21,20 +21,20 @@
 	            <ul class="cal">
 	                <li class="text">Convert: </li>
 	                <li>
-                        <select name="numSource" id="numSource">
-                            <option value="10">Decimal</option>
-                            <option value="2">Binary</option>
-                            <option value="8">Octal</option>
-                            <option value="16">Hexadecimal</option>
-                        </select>
-	                </li>
-	                <li class="text"><span>to</span></li>
-	                <li>
                         <select name="numDest" id="numDest">
                             <option value="10">Decimal</option>
                             <!-- <option value="2">Binary</option>
                             <option value="8">Octal</option>
                             <option value="16">Hexadecimal</option> -->
+                        </select>
+	                </li>
+	                <li class="text"><span>to</span></li>
+	                <li>
+                        <select name="numSource" id="numSource">
+                            <!-- <option value="10">Decimal</option> -->
+                            <option value="2">Binary</option>
+                            <option value="8">Octal</option>
+                            <option value="16">Hexadecimal</option>
                         </select>
 	                </li>
 	                <li><input type="text" id="num" placeholder="Enter your number"></li>
@@ -48,15 +48,22 @@
 	    <div class="container">
 	        <div class="row">
 	            <div class="col-half">
-                    <h1>Normal</h1>
+                    <h1>Process</h1>
                     <ul class="normal">
-                    	<!-- <li class="num">D</li>
-                    	<li class="normalRes">R</li>
-                    	<li class="normalRem">%</li> -->
+                    	<p class="dummy">The process of the conversation will be shown here</p>
                     </ul>
 	            </div>
 	            <div class="col-half">
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perspiciatis, consequuntur, non? Vel ex illo modi debitis culpa molestiae totam earum dicta, nesciunt voluptas, repudiandae consequatur consequuntur, officiis? Ratione, veritatis fuga.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsa nobis fugiat alias nesciunt dolor, quas tempora dolores maxime sed eum a aut accusamus facere laudantium blanditiis illo doloremque ab quaerat!</p>     
+                    <h1>Result</h1>
+                    <p>Here <strong>D</strong> represents the divider where the value of <strong>D</strong> for Binary is: <strong>2</strong>, Octal is: <strong>8</strong> and Hexadeciaml is: <strong>16</strong></p>
+                    <p>You have to divide the given number with the <strong>D</strong> and the reverse order of the remidars what you will get will be the answer for the given number conversation</p>
+                    <p>Here <strong>R</strong> is the result after dividing the element with <strong>D</strong></p>
+                    <p>And the last one, <strong>%</strong> represents remaindar which is actual element that is needed for the conversation</p>
+                    <br><br>
+                    <p>The converstion for Decimal number <strong><span class="inNum"></span></strong> is: </p>
+                    <div class="std">
+                    	<p class="stndrd-result"></p>	
+                    </div>
 	            </div>
 	        </div>
 	    </div>
@@ -66,7 +73,7 @@
 	    <div class="container">
 	        <div class="row">
 	            <div class="footer">
-	                <p>Made by <a href="//facebook.com/zonayedpca">Zonayed Ahmed</a></p>
+	                <p>Made by <a href="https://facebook.com/zonayedpca">Zonayed Ahmed</a></p>
 	            </div>
 	        </div>
 	    </div>
